@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backatthebarnyard"
+    android:orientation="vertical"
+    tools:context=".fragments.Register">
+
+    <TextView
+        android:id="@+id/appNameTextViewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back At The Barnyard - App"
+        android:textSize="24sp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/emailEditTextFrag2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#B0BEC5"
+        android:textSize="16sp" /> />
+
+    <EditText
+        android:id="@+id/passwordEditTextFrag2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#B0BEC5"
+        android:textSize="16sp" /> />
+
+    <EditText
+        android:id="@+id/rePasswordEditTextFrag2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Re-enter Password"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#B0BEC5"
+        android:textSize="16sp" /> />
+
+    <EditText
+        android:id="@+id/phoneEditTextFrag2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:layout_marginTop="20dp"
+        android:inputType="phone"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#B0BEC5"
+        android:textSize="16sp" /> />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerButtonFrag2"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ripple_effect"
+        android:elevation="8dp"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+</LinearLayout>

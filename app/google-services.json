@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "968698559104",
+    "project_id": "dvirproject-5c255",
+    "storage_bucket": "dvirproject-5c255.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968698559104:android:cf136f0a5994f3c2c14465",
+        "android_client_info": {
+          "package_name": "com.example.mysecondproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaipkNnefnmIme5Y0k1XAIhWq8Ryit00o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
